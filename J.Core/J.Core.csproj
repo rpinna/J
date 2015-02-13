@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accounts\JAccountCreate.cs" />
+    <Compile Include="Accounts\JAccountCreateResult.cs" />
     <Compile Include="CommandMessages\JGenericCommandMessage.cs" />
     <Compile Include="Perspective\JPerspective.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
