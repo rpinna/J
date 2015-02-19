@@ -49,6 +49,7 @@
     <Compile Include="Accounts\JAccountCreateResult.cs" />
     <Compile Include="CommandMessages\JGenericCommandMessage.cs" />
     <Compile Include="JsonNet\SnakeCaseContractResolver.cs" />
+    <Compile Include="People\JPerson.cs" />
     <Compile Include="Perspective\JPerspective.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
