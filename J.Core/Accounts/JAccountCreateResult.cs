@@ -16,5 +16,8 @@ namespace Cofamilies.J.Core.Accounts
   {
     [JsonProperty("activationCode")]
     public string ActivationCode { get; set; }
+
+    [JsonProperty("personId")]
+    public string PersonId { get; set; }
   }
 }
