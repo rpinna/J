@@ -32,6 +32,9 @@ namespace Cofamilies.J.Core.People
 
   public class JPerson : IJPerson
   {
+    [JsonProperty("avatarUrl")]
+    public string AvatarUrl { get; set; }
+
     [JsonProperty("email")]
     public string Email { get; set; }
 
@@ -43,9 +46,6 @@ namespace Cofamilies.J.Core.People
 
     [JsonProperty("id")]
     public string Id { get; set; }
-
-    [JsonProperty("avatarUrl")]
-    public string AvatarUrl { get; set; }
 
     [JsonProperty("isDeleted")]
     public bool IsDeleted { get; set; }
