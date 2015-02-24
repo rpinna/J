@@ -47,11 +47,15 @@
   <ItemGroup>
     <Compile Include="Accounts\JAccountCreate.cs" />
     <Compile Include="Accounts\JAccountCreateResult.cs" />
+    <Compile Include="Activities\JActivities.cs" />
+    <Compile Include="Activities\JActivity.cs" />
     <Compile Include="CommandMessages\JGenericCommandMessage.cs" />
     <Compile Include="JsonNet\SnakeCaseContractResolver.cs" />
     <Compile Include="People\JPerson.cs" />
     <Compile Include="Perspective\JPerspective.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\JErrorEntry.cs" />
+    <Compile Include="Results\JResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
