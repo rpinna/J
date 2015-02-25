@@ -47,6 +47,8 @@
   <ItemGroup>
     <Compile Include="Accounts\JAccountCreate.cs" />
     <Compile Include="Accounts\JAccountCreateResult.cs" />
+    <Compile Include="Activations\JActivationCreate.cs" />
+    <Compile Include="Activations\JActivationCreateResult.cs" />
     <Compile Include="Activities\JActivities.cs" />
     <Compile Include="Activities\JActivity.cs" />
     <Compile Include="CommandMessages\JGenericCommandMessage.cs" />
