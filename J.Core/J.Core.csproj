@@ -53,6 +53,8 @@
     <Compile Include="Activities\JActivity.cs" />
     <Compile Include="CalendarItems\JCalendarItemCreate.cs" />
     <Compile Include="CalendarItems\JCalendarItemCreateOrUpdateBase.cs" />
+    <Compile Include="CalendarItems\JCalendarItemCreateResult.cs" />
+    <Compile Include="CalendarItems\JCalendarItemUpdateResult.cs" />
     <Compile Include="CalendarItems\JCalendarUpdate.cs" />
     <Compile Include="CommandMessages\JGenericCommandMessage.cs" />
     <Compile Include="JsonNet\SnakeCaseContractResolver.cs" />
