@@ -10,9 +10,9 @@ namespace Cofamilies.J.Core.Values
   public class JLocation
   {
     [JsonProperty("lat")]
-    public string Lattitude { get; set; }
+    public double Lattitude { get; set; }
 
     [JsonProperty("lng")]
-    public string Longitude { get; set; }
+    public double Longitude { get; set; }
   }
 }
