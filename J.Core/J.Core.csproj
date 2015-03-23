@@ -57,6 +57,8 @@
     <Compile Include="CalendarItems\JCalendarItemUpdateResult.cs" />
     <Compile Include="CalendarItems\JCalendarUpdate.cs" />
     <Compile Include="CommandMessages\JGenericCommandMessage.cs" />
+    <Compile Include="Devices\JDevice.cs" />
+    <Compile Include="Devices\JDevices.cs" />
     <Compile Include="JsonNet\SnakeCaseContractResolver.cs" />
     <Compile Include="People\JPerson.cs" />
     <Compile Include="Perspective\JPerspective.cs" />
@@ -69,6 +71,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
