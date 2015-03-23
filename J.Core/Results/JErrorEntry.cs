@@ -20,9 +20,9 @@ namespace Cofamilies.J.Core.Results
     /// <param name="value">Value of property involved in the error</param>
     public JErrorEntry(string property, string message, string value = null)
     {
-      property = property;
-      message = message;
-      value = value;
+      this.property = property;
+      this.message = message;
+      this.value = value;
     }
     #endregion
 
